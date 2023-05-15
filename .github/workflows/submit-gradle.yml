@@ -19,3 +19,5 @@ jobs:
         with:
           gradle-project-path: "gradle-example"
           gradle-build-module: ":app"
+
+      - run: tree
